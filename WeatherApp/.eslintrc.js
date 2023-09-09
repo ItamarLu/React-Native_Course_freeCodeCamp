@@ -30,8 +30,8 @@ module.exports = {
     ],
     "rules": {
         semi: ['error', 'never'],
-        'coma-dangle': [2, 'never'],
-        'react/jsx-filename-extension': [1, { extensions: {'.js', '.sx'} }],
+        'comma-dangle': [2, 'never'],
+        'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
         'no-user-before-define': [
             'error',
             { functions: true, classes: true, variables: false }
